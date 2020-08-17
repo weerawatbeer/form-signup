@@ -1,0 +1,75 @@
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+  font-size: 1rem;
+  background-color: #fafafa;
+}
+
+*:focus {
+  outline: none;
+}
+
+.container {
+  background-color: white;
+  margin: 6rem auto;
+  padding: 3rem 1.5rem;
+  width: 385px;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  padding: 2rem auto;
+}
+
+h2 {
+  margin-bottom: 1.3rem;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input {
+  font-family: inherit;
+  font-size: 1rem;
+  overflow: hidden;
+  border-radius: 3px;
+  width: 100%;
+  padding: 0.6rem 1.2rem;
+  background: white;
+  border: 1px solid gray;
+  margin-bottom: 1.5rem;
+  color: blue;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: 0.4rem 1rem;
+  background: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1.1px;
+  width: 100%;
+}
+
+@media screen and (max-width: 430px) {
+  .container {
+    margin: 20% auto;
+    width: 90%;
+  }
+}
