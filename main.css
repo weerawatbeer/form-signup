@@ -65,6 +65,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 1.1px;
   width: 100%;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 430px) {
